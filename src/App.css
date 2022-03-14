@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+}
+body{
+  background-color: rgb(221, 116, 29) !important;
+  min-height: 100vh !important;
+}
+.link {
+  color: aliceblue;
+
+}
+.link:hover{
+  color: rgb(255, 0, 0);
+}
+.card-item{
+  background-color: rgb(51, 51, 51) !important; 
+  border-color: rgb(231, 34, 8) !important; 
+  width: 100% !important;
+  margin: 30px 0 !important;
+}
+.card-item:hover{
+  transform: scale(1.1);
+  transition: all .3s linear;
+
+}
+.navbar-item{
+  background-color: rgb(221, 116, 29) !important;
+  color: rgb(255, 255, 255) !important;
+}
+.navbar-item:hover{
+  color: #333 !important;
+}
+.dropdownmenu-custom{
+  background-color: rgb(221, 116, 29) !important;
+  text-align: center !important;
+}
+.dropdownitem-custom:hover{
+  background-color: rgb(221, 116, 29) !important;
+}
+.navlink{
+  color: white !important;
+}
+.navlink:hover{
+  color: #333 !important;
+}
+.figcaption{
+  position: absolute;
+  bottom: 3em;
+  left: 10em;
+  font-size: inherit;
+  margin: 0 2 rem;
+  color:white;
+}
+.figcaptionlink{
+  position: absolute;
+  bottom: 2em;
+  left: 10em;
+  font-size: inherit;
+  margin: 0 2 rem;
+  color:white;
+}
+
+@media screen and (max-width: 768px){
+  .figcaption{
+    position: sticky;
+    bottom:inherit;
+    text-align: center;
+    font-size: inherit;
+  }
+  .figcaptionlink{
+    position:sticky;
+    bottom:inherit;
+    text-align: center;
+    font-size: inherit;
+    margin: auto;
+  }
+  
+}
